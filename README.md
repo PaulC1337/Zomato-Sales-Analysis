@@ -29,6 +29,83 @@ Visual/Example:
 
 ![Sales Distribution Across Cities](https://github.com/PaulC1337/Zomato-Sales-Analysis/blob/main/Sales%20Distribution%20Across%20Cities.png)
 
+Using a few SQL queries I was able to form tables for the following:
+
+Sales Trends Over Time
+To get the monthly total sales:
+
+SELECT 
+    DATE_FORMAT(order_date, '%Y-%m') AS month, 
+    SUM(sales_amount) AS total_sales,
+    COUNT(order_id) AS total_orders
+FROM orders
+GROUP BY DATE_FORMAT(order_date, '%Y-%m')
+ORDER BY month;
+
+Top Restaurants by Revenue
+To identify the top 5 revenue-generating restaurants:
+
+SELECT 
+    r.restaurant_name, 
+    r.city, 
+    SUM(o.sales_amount) AS total_revenue
+FROM orders o
+JOIN restaurant r ON o.restaurant_id = r.restaurant_id
+GROUP BY r.restaurant_name, r.city
+ORDER BY total_revenue DESC
+LIMIT 5;
+
+Sales Distribution by City
+To analyze sales distribution across cities:
+
+SELECT 
+    r.city, 
+    SUM(o.sales_amount) AS total_revenue,
+    COUNT(o.order_id) AS total_orders
+FROM orders o
+JOIN restaurant r ON o.restaurant_id = r.restaurant_id
+GROUP BY r.city
+ORDER BY total_revenue DESC;
+
+Day-Wise Sales Analysis
+To analyze total sales by day of the week:
+
+SELECT 
+    DAYNAME(order_date) AS day_of_week,
+    SUM(sales_amount) AS total_sales,
+    COUNT(order_id) AS total_orders
+FROM orders
+GROUP BY DAYNAME(order_date)
+ORDER BY FIELD(day_of_week, 'Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday');
+
+High-Value Customers
+To find the top 5 customers by total spending :
+
+SELECT 
+    u.user_name, 
+    SUM(o.sales_amount) AS total_spending,
+    COUNT(o.order_id) AS total_orders
+FROM orders o
+JOIN users u ON o.user_id = u.user_id
+GROUP BY u.user_name
+ORDER BY total_spending DESC
+LIMIT 5;
+
+Combining Insights:
+
+SELECT 
+    r.restaurant_name,
+    r.city,
+    DATE_FORMAT(o.order_date, '%Y-%m') AS month,
+    SUM(o.sales_amount) AS total_revenue,
+    COUNT(o.order_id) AS total_orders
+FROM orders o
+JOIN restaurant r ON o.restaurant_id = r.restaurant_id
+GROUP BY r.restaurant_name, r.city, DATE_FORMAT(o.order_date, '%Y-%m')
+ORDER BY total_revenue DESC, month ASC;
+
+
+
 The following visualizations were created in Tableau to meet project objectives:
 
 Sales Dynamics Over Time
