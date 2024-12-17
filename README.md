@@ -59,10 +59,8 @@ Final Dashboard
 
 The interactive Tableau dashboard can be accessed here: https://public.tableau.com/app/profile/paul.john.cannarella.jr/viz/ZomatoSales-Analysis/DashboardAnalysis#1
 
-Vizual Example is attached in READ.md
-
-
 Summary of Findings
+
 Sales Trends: Peak sales occurred in early 2018, with a decline post-2019.
 Top Performers: Domino's Pizza and similar brands are major contributors.
 Geographic Insights: Sales are concentrated in major cities.
