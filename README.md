@@ -24,6 +24,9 @@ Orders were linked to Users via user_id.
 Irrelevant and duplicate records were removed.
 Missing values were handled, and data formats were standardized.
 Visualizations and Insights
+
+Visual/Example: 
+
 The following visualizations were created in Tableau to meet project objectives:
 
 Sales Dynamics Over Time
