@@ -54,7 +54,7 @@ Final Dashboard
 
 The interactive Tableau dashboard can be accessed here: https://public.tableau.com/app/profile/paul.john.cannarella.jr/viz/ZomatoSales-Analysis/DashboardAnalysis#1
 
-Vizual Example Below
+Vizual Example is attached in READ.md
 
 
 Summary of Findings
