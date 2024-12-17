@@ -9,6 +9,7 @@ Understand sales distribution across cities.
 Evaluate customer purchasing behavior.
 Assess day-wise sales trends to validate hypotheses.
 Data Sources
+
 The following CSV files were used:
 
 orders.csv: Order details including order IDs and sales amount.
