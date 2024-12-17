@@ -27,6 +27,8 @@ Visualizations and Insights
 
 Visual/Example: 
 
+![Sales Distribution Across Cities](https://github.com/PaulC1337/Zomato-Sales-Analysis/blob/main/Sales%20Distribution%20Across%20Cities.png)
+
 The following visualizations were created in Tableau to meet project objectives:
 
 Sales Dynamics Over Time
