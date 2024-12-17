@@ -51,10 +51,11 @@ Total Sales: ₹964,259,275
 Total Orders: 566
 Average Order Value (AOV): ₹122,446
 Final Dashboard
+
 The interactive Tableau dashboard can be accessed here: https://public.tableau.com/app/profile/paul.john.cannarella.jr/viz/ZomatoSales-Analysis/DashboardAnalysis#1
-Zomato Sales Analysis Dashboard
 
 Vizual Example Below
+
 
 Summary of Findings
 Sales Trends: Peak sales occurred in early 2018, with a decline post-2019.
