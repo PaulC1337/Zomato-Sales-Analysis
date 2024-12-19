@@ -27,7 +27,7 @@ Visualizations and Insights
 
 Visual/Example: 
 
-!![Sales Distribution Across Cities]([https://github.com/PaulC1337/Superstore-Sub-Category-Analysis/blob/main/Annual%20Profit%20By%20Sub-Category%20Over%20Time.png](https://github.com/PaulC1337/Zomato-Sales-Analysis/blob/main/Sales%20Distribution%20Across%20Cities.png))
+![Sales Distribution Across Cities]([https://github.com/PaulC1337/Superstore-Sub-Category-Analysis/blob/main/Annual%20Profit%20By%20Sub-Category%20Over%20Time.png](https://github.com/PaulC1337/Zomato-Sales-Analysis/blob/main/Sales%20Distribution%20Across%20Cities.png))
 
 
 Using a few SQL queries I was able to form tables, the link to those queries can be found below
