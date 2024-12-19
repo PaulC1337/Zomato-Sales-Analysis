@@ -27,7 +27,8 @@ Visualizations and Insights
 
 Visual/Example: 
 
-![Annual Profit By Sub-Category Over Time} (https://public.tableau.com/app/profile/paul.john.cannarella.jr/viz/Principles_of_Dashboard_Design_17315988015200/ProfitByState?publish=yes) 
+!![Sales Distribution Across Cities]([https://github.com/PaulC1337/Superstore-Sub-Category-Analysis/blob/main/Annual%20Profit%20By%20Sub-Category%20Over%20Time.png](https://github.com/PaulC1337/Zomato-Sales-Analysis/blob/main/Sales%20Distribution%20Across%20Cities.png))
+
 
 Using a few SQL queries I was able to form tables, the link to those queries can be found below
 
