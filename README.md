@@ -27,7 +27,7 @@ Visualizations and Insights
 
 Visual/Example: 
 
-![Annual Profit By Sub-Category Over Time ({https://public.tableau.com/app/profile/paul.john.cannarella.jr/viz/Principles_of_Dashboard_Design_17315988015200/ProfitByState?publish=yes}) 
+![Annual Profit By Sub-Category Over Time} (https://public.tableau.com/app/profile/paul.john.cannarella.jr/viz/Principles_of_Dashboard_Design_17315988015200/ProfitByState?publish=yes) 
 
 Using a few SQL queries I was able to form tables, the link to those queries can be found below
 
